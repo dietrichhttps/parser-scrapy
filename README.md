@@ -20,7 +20,6 @@ playwright install chromium
 ## Использование
 
 ```bash
-cd alkoteka
 scrapy crawl alkoteka -O result.json
 ```
 
@@ -83,7 +82,6 @@ PROXIES = [
 ## Структура проекта
 
 ```
-alkoteka/
 ├── __init__.py
 ├── items.py          # Модель данных
 ├── middlewares.py    # Playwright + Proxy middleware
