@@ -95,17 +95,32 @@ class AlkotekaSpider(scrapy.Spider):
         
         item['marketing_tags'] = tags
 
+        description = response.css('[class*="description-text"]::text, [class*="description"] p::text').getall()
+        description_text = ' '.join([d.strip() for d in description if d.strip()])
+
+        metadata = {'__description': description_text}
+
         brand = ''
         
+        specs = response.css('.specifications-card')
+        for spec in specs:
+            key = spec.css('span::text').get()
+            value = spec.css('.text--body::text').get()
+            
+            if key and value:
+                key = key.strip()
+                value = value.strip()
+                
+                if 'бренд' in key.lower():
+                    brand = value
+                elif key:
+                    if len(key) < 50 and len(value) < 100:
+                        metadata[key] = value
+        
         if not brand:
-            specs_keys = response.css('.specifications-card__name::text').getall()
-            specs_values = response.css('.specifications-card__value::text').getall()
-            for i, key in enumerate(specs_keys):
-                key_clean = key.strip().lower() if key else ''
-                if key_clean and ('производитель' in key_clean or 'бренд' in key_clean):
-                    if i < len(specs_values):
-                        brand = specs_values[i].strip()
-                        break
+            brand_el = response.css('.product-info__title::text, [class*="product-title"]::text').get()
+            if brand_el and len(brand_el.strip()) < 50:
+                brand = brand_el.strip()
         
         item['brand'] = brand
         
@@ -167,15 +182,6 @@ class AlkotekaSpider(scrapy.Spider):
         description = ' '.join([d.strip() for d in description if d.strip()])
 
         metadata = {'__description': description}
-
-        specs_keys = response.css('.specifications-card__name::text').getall()
-        specs_values = response.css('.specifications-card__value::text').getall()
-        
-        for key, value in zip(specs_keys, specs_values):
-            key = key.strip()
-            value = value.strip()
-            if key and value and len(key) < 50:
-                metadata[key] = value
 
         item['metadata'] = metadata
 
