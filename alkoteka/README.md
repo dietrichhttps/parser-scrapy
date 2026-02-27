@@ -1,42 +1,61 @@
-# Alkoteка Parser
+# Парсер alkoteka.com
 
-Scrapy parser for alkoteka.com online store.
+Scrapy-парсер для сбора данных о товарах с интернет-магазина alkoteka.com.
 
-## Features
+## Возможности
 
-- Parses product data from multiple categories
-- Region: Krasnodar (hardcoded)
-- JavaScript rendering via Playwright
-- Proxy support (configurable)
-- JSON output
+- Парсинг товаров из нескольких категорий
+- Рендеринг JavaScript через Playwright
+- Регион: Краснодар (hardcoded)
+- Поддержка прокси
+- Сохранение в JSON
 
-## Installation
+## Требования
 
 ```bash
 pip install -r requirements.txt
 playwright install chromium
 ```
 
-## Usage
+## Использование
 
 ```bash
 cd alkoteka
 scrapy crawl alkoteka -O result.json
 ```
 
-## Output Format
+## Настройка категорий
 
-The parser outputs JSON with the following structure:
+Отредактируйте файл `alkoteka/categories.txt`:
+
+```
+https://alkoteka.com/catalog/slaboalkogolnye-napitki-2
+https://alkoteka.com/catalog/pivo-1
+https://alkoteka.com/catalog/vino-1
+```
+
+## Настройка прокси
+
+Добавьте прокси в `alkoteka/settings.py`:
+
+```python
+PROXIES = [
+    'http://user:pass@proxy1.com:8080',
+    'http://user:pass@proxy2.com:8080',
+]
+```
+
+## Формат выходных данных
 
 ```json
 {
     "timestamp": 1234567890,
     "RPC": "product-code",
     "url": "https://alkoteka.com/product/...",
-    "title": "Product Name, 0.5L",
-    "marketing_tags": ["Sale", "Popular"],
-    "brand": "Brand Name",
-    "section": ["Category", "Subcategory"],
+    "title": "Название товара, 0.5л",
+    "marketing_tags": ["Акция", "Популярный"],
+    "brand": "Название бренда",
+    "section": ["Категория", "Подкатегория"],
     "price_data": {
         "current": 199.0,
         "original": 299.0,
@@ -53,29 +72,44 @@ The parser outputs JSON with the following structure:
         "video": []
     },
     "metadata": {
-        "__description": "Product description...",
-        "Volume": "0.5L",
-        "Country": "Germany"
+        "__description": "Описание товара",
+        "Объем": "0.5 л",
+        "Страна производитель": "Германия"
     },
     "variants": 1
 }
 ```
 
-## Configuration
-
-Edit `categories.txt` to change target categories:
+## Структура проекта
 
 ```
-https://alkoteka.com/catalog/slaboalkogolnye-napitki-2
-https://alkoteka.com/catalog/pivo-1
-https://alkoteka.com/catalog/vino-1
+alkoteka/
+├── alkoteka/
+│   ├── __init__.py
+│   ├── items.py          # Модель данных
+│   ├── middlewares.py    # Playwright + Proxy middleware
+│   ├── pipelines.py      # Сохранение в JSON
+│   ├── settings.py       # Настройки
+│   ├── categories.txt    # Список категорий
+│   └── spiders/
+│       └── alkoteka_spider.py  # Паук
+├── scrapy.cfg
+├── requirements.txt
+└── README.md
 ```
 
-Add proxies in `settings.py`:
+## Дополнительные параметры
 
-```python
-PROXIES = [
-    'http://user:pass@proxy1.com:8080',
-    'http://user:pass@proxy2.com:8080',
-]
+```bash
+# Изменить количество потоков
+scrapy crawl alkoteka -s CONCURRENT_REQUESTS=1
+
+# Изменить задержку между запросами
+scrapy crawl alkoteka -s DOWNLOAD_DELAY=2
+
+# Отключить троттлинг
+scrapy crawl alkoteka -s AUTOTHROTTLE_ENABLED=False
+
+# Уровень логирования
+scrapy crawl alkoteka -s LOG_LEVEL=INFO
 ```
