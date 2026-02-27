@@ -50,10 +50,8 @@ DOWNLOADER_MIDDLEWARES = {
     "middlewares.ProxyMiddleware": 544,
 }
 
-# Configure item pipelines
-ITEM_PIPELINES = {
-    "pipelines.JsonWriterPipeline": 300,
-}
+# Configure item pipelines - disabled, use -O flag instead
+ITEM_PIPELINES = {}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 AUTOTHROTTLE_ENABLED = True
