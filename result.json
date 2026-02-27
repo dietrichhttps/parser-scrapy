@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": 1772214520,
+    "timestamp": 1772214806,
     "RPC": "pivo-bakalar-kholodnogo-okhmeleniya-bezalkogolnoe",
     "url": "https://alkoteka.com/product/bezalkogolnoe-pivo/pivo-bakalar-kholodnogo-okhmeleniya-bezalkogolnoe_62309",
     "title": "Пиво Бакалар холодного охмеления безалкогольное",
@@ -30,7 +30,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772214525,
+    "timestamp": 1772214811,
     "RPC": "klaustaler-oridzhinal-bezalkogolnoe",
     "url": "https://alkoteka.com/product/bezalkogolnoe-pivo/klaustaler-oridzhinal-bezalkogolnoe_70944",
     "title": "Клаусталер Ориджинал безалкогольное",
@@ -60,7 +60,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772214531,
+    "timestamp": 1772214816,
     "RPC": "krushovice-cherne",
     "url": "https://alkoteka.com/product/pivo-1/krushovice-cherne_46678",
     "title": "Крушовице Черне",
@@ -90,7 +90,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772214537,
+    "timestamp": 1772214821,
     "RPC": "afanasiy-marochnoe-bezalkogolnoe",
     "url": "https://alkoteka.com/product/bezalkogolnoe-pivo/afanasiy-marochnoe-bezalkogolnoe_41848",
     "title": "Афанасий Марочное Безалкогольное",
@@ -120,7 +120,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772214543,
+    "timestamp": 1772214827,
     "RPC": "sidr-yablochnyy-polusukhoy",
     "url": "https://alkoteka.com/product/sidr-medovukha-1/sidr-yablochnyy-polusukhoy_39008",
     "title": "Сидр Яблочный полусухой",
@@ -150,7 +150,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772214549,
+    "timestamp": 1772214833,
     "RPC": "puare-grushevyy-sidr-polusladkiy-igristyy-zhemchuzhnyy-0-33l-s-b-4-5-12-1-296",
     "url": "https://alkoteka.com/product/sidr-medovukha-1/puare-grushevyy-sidr-polusladkiy-igristyy-zhemchuzhnyy-0-33l-s-b-4-5-12-1-296_39012",
     "title": "Пуаре Грушевый сидр полусладкий игристый жемчужный 0,33л с/б 4,5% (12/1 296)",
@@ -180,7 +180,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772214554,
+    "timestamp": 1772214838,
     "RPC": "medovyy-napitok-khmelnoy-med-tradicionnyy",
     "url": "https://alkoteka.com/product/sidr-medovukha-1/medovyy-napitok-khmelnoy-med-tradicionnyy_39020",
     "title": "Медовый напиток Хмельной мёд Традиционный",
@@ -210,9 +210,39 @@
     "variants": 1
   },
   {
-    "timestamp": 1772214559,
+    "timestamp": 1772214843,
     "RPC": "medovyy-napitok-khmelnoy-med-vishnevyy-krik",
     "url": "https://alkoteka.com/product/sidr-medovukha-1/medovyy-napitok-khmelnoy-med-vishnevyy-krik_39010",
+    "title": "Медовый напиток Хмельной мёд Вишнёвый Крик",
+    "marketing_tags": [],
+    "brand": "Медоварус",
+    "section": [
+      "Slaboalkogolnye Napitki 2"
+    ],
+    "price_data": {
+      "current": 149.0,
+      "original": 149.0,
+      "sale_tag": ""
+    },
+    "stock": {
+      "in_stock": true,
+      "count": 0
+    },
+    "assets": {
+      "main_image": "https://web.alkoteka.com/storage/product/20/27/39010_image.png",
+      "set_images": [],
+      "view360": [],
+      "video": []
+    },
+    "metadata": {
+      "__description": "Вишневый ламбик, сваренный в европейских традициях XIX века, производится из сока спелой вишни «Шампань», крик обладает насыщенным слегка терпким вкусом. Оригинальность напитку придает долгое послевкусие с приятной кислинкой и легким миндальным оттенком. Является продуктом естественного брожения."
+    },
+    "variants": 1
+  },
+  {
+    "timestamp": 1772214848,
+    "RPC": "pivo-khayneken-0-5l-m-b-5-svetloe-filtrovanno-pasteriz-24-1-512",
+    "url": "https://alkoteka.com/product/pivo-1/pivo-khayneken-0-5l-m-b-5-svetloe-filtrovanno-pasteriz-24-1-512_142357",
     "title": "",
     "marketing_tags": [],
     "brand": "",
