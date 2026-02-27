@@ -26,7 +26,7 @@ scrapy crawl alkoteka -O result.json
 
 ## Настройка категорий
 
-Отредактируйте файл `alkoteka/categories.txt`:
+Отредактируйте файл `categories.txt`:
 
 ```
 https://alkoteka.com/catalog/slaboalkogolnye-napitki-2
@@ -36,7 +36,7 @@ https://alkoteka.com/catalog/vino-1
 
 ## Настройка прокси
 
-Добавьте прокси в `alkoteka/settings.py`:
+Добавьте прокси в `settings.py`:
 
 ```python
 PROXIES = [
@@ -84,15 +84,15 @@ PROXIES = [
 
 ```
 alkoteka/
-├── alkoteka/
+├── __init__.py
+├── items.py          # Модель данных
+├── middlewares.py    # Playwright + Proxy middleware
+├── pipelines.py      # Сохранение в JSON
+├── settings.py       # Настройки
+├── categories.txt    # Список категорий
+├── spiders/
 │   ├── __init__.py
-│   ├── items.py          # Модель данных
-│   ├── middlewares.py    # Playwright + Proxy middleware
-│   ├── pipelines.py      # Сохранение в JSON
-│   ├── settings.py       # Настройки
-│   ├── categories.txt    # Список категорий
-│   └── spiders/
-│       └── alkoteka_spider.py  # Паук
+│   └── alkoteka_spider.py  # Паук
 ├── scrapy.cfg
 ├── requirements.txt
 └── README.md

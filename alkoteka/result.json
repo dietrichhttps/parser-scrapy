@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": 1772213803,
+    "timestamp": 1772214520,
     "RPC": "pivo-bakalar-kholodnogo-okhmeleniya-bezalkogolnoe",
     "url": "https://alkoteka.com/product/bezalkogolnoe-pivo/pivo-bakalar-kholodnogo-okhmeleniya-bezalkogolnoe_62309",
     "title": "Пиво Бакалар холодного охмеления безалкогольное",
@@ -30,7 +30,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772213808,
+    "timestamp": 1772214525,
     "RPC": "klaustaler-oridzhinal-bezalkogolnoe",
     "url": "https://alkoteka.com/product/bezalkogolnoe-pivo/klaustaler-oridzhinal-bezalkogolnoe_70944",
     "title": "Клаусталер Ориджинал безалкогольное",
@@ -60,7 +60,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772213814,
+    "timestamp": 1772214531,
     "RPC": "krushovice-cherne",
     "url": "https://alkoteka.com/product/pivo-1/krushovice-cherne_46678",
     "title": "Крушовице Черне",
@@ -90,7 +90,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772213819,
+    "timestamp": 1772214537,
     "RPC": "afanasiy-marochnoe-bezalkogolnoe",
     "url": "https://alkoteka.com/product/bezalkogolnoe-pivo/afanasiy-marochnoe-bezalkogolnoe_41848",
     "title": "Афанасий Марочное Безалкогольное",
@@ -120,7 +120,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772213824,
+    "timestamp": 1772214543,
     "RPC": "sidr-yablochnyy-polusukhoy",
     "url": "https://alkoteka.com/product/sidr-medovukha-1/sidr-yablochnyy-polusukhoy_39008",
     "title": "Сидр Яблочный полусухой",
@@ -150,7 +150,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772213830,
+    "timestamp": 1772214549,
     "RPC": "puare-grushevyy-sidr-polusladkiy-igristyy-zhemchuzhnyy-0-33l-s-b-4-5-12-1-296",
     "url": "https://alkoteka.com/product/sidr-medovukha-1/puare-grushevyy-sidr-polusladkiy-igristyy-zhemchuzhnyy-0-33l-s-b-4-5-12-1-296_39012",
     "title": "Пуаре Грушевый сидр полусладкий игристый жемчужный 0,33л с/б 4,5% (12/1 296)",
@@ -180,7 +180,7 @@
     "variants": 1
   },
   {
-    "timestamp": 1772213835,
+    "timestamp": 1772214554,
     "RPC": "medovyy-napitok-khmelnoy-med-tradicionnyy",
     "url": "https://alkoteka.com/product/sidr-medovukha-1/medovyy-napitok-khmelnoy-med-tradicionnyy_39020",
     "title": "Медовый напиток Хмельной мёд Традиционный",
@@ -210,18 +210,18 @@
     "variants": 1
   },
   {
-    "timestamp": 1772213840,
+    "timestamp": 1772214559,
     "RPC": "medovyy-napitok-khmelnoy-med-vishnevyy-krik",
     "url": "https://alkoteka.com/product/sidr-medovukha-1/medovyy-napitok-khmelnoy-med-vishnevyy-krik_39010",
-    "title": "Медовый напиток Хмельной мёд Вишнёвый Крик",
+    "title": "",
     "marketing_tags": [],
-    "brand": "Медоварус",
+    "brand": "",
     "section": [
       "Slaboalkogolnye Napitki 2"
     ],
     "price_data": {
-      "current": 149.0,
-      "original": 149.0,
+      "current": 0.0,
+      "original": 0.0,
       "sale_tag": ""
     },
     "stock": {
@@ -229,373 +229,13 @@
       "count": 0
     },
     "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/20/27/39010_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": "Вишневый ламбик, сваренный в европейских традициях XIX века, производится из сока спелой вишни «Шампань», крик обладает насыщенным слегка терпким вкусом. Оригинальность напитку придает долгое послевкусие с приятной кислинкой и легким миндальным оттенком. Является продуктом естественного брожения."
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213845,
-    "RPC": "pivo-khayneken-0-5l-m-b-5-svetloe-filtrovanno-pasteriz-24-1-512",
-    "url": "https://alkoteka.com/product/pivo-1/pivo-khayneken-0-5l-m-b-5-svetloe-filtrovanno-pasteriz-24-1-512_142357",
-    "title": "Пиво ХАЙНЕКЕН 0,5л м/б 5% светлое фильтрованно пастериз. // (24/1 512)",
-    "marketing_tags": [],
-    "brand": "Хайникен",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 215.0,
-      "original": 215.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/85/a3/142357_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": "Аромат элегантный с тонкими фруктовыми нотами Вкус играет деликатными нотками карамели, с приятной горчинкой в финише"
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213850,
-    "RPC": "dzhinro-so-vkusom-i-aromatom-slivy-sodzhu",
-    "url": "https://alkoteka.com/product/prochee-3/dzhinro-so-vkusom-i-aromatom-slivy-sodzhu_77451",
-    "title": "Джинро со вкусом и ароматом сливы соджу",
-    "marketing_tags": [],
-    "brand": "Джинро",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 659.0,
-      "original": 659.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/5a/ac/77451_image.png",
+      "main_image": "",
       "set_images": [],
       "view360": [],
       "video": []
     },
     "metadata": {
       "__description": ""
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213856,
-    "RPC": "afanasiy-porter",
-    "url": "https://alkoteka.com/product/pivo-1/afanasiy-porter_41753",
-    "title": "Афанасий Портер",
-    "marketing_tags": [],
-    "brand": "Афанасий",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 175.0,
-      "original": 175.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/47/9c/41753_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": "Плотное насыщеное пиво глубокого темного цвета с изысканной уравновешенной  отточеной хмелевой горечью послевкусия, присущей классическим сортам портеров."
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213861,
-    "RPC": "velkopopovickiy-kozel-svetlyy",
-    "url": "https://alkoteka.com/product/pivo-1/velkopopovickiy-kozel-svetlyy_91167",
-    "title": "Велкопоповицкий Козел Светлый",
-    "marketing_tags": [],
-    "brand": "Велкопоповицкий Козел",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 199.0,
-      "original": 199.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/4e/9d/91167_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": ""
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213866,
-    "RPC": "shnayder-vayss-khopfenvayss-vaycendoppelbok-tap-05",
-    "url": "https://alkoteka.com/product/pivo-1/shnayder-vayss-khopfenvayss-vaycendoppelbok-tap-05_59081",
-    "title": "Шнайдер Вайсс Хопфенвайсс Вайцендоппелбок ТАП 05",
-    "marketing_tags": [],
-    "brand": "Шнайдер Вайсс",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 389.0,
-      "original": 389.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/c8/43/59081_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": ""
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213871,
-    "RPC": "cindao-premium",
-    "url": "https://alkoteka.com/product/pivo-1/cindao-premium_99689",
-    "title": "Циндао Премиум",
-    "marketing_tags": [],
-    "brand": "Циндао",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 159.0,
-      "original": 159.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/b8/46/99689_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": ""
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213876,
-    "RPC": "korona-ekstra",
-    "url": "https://alkoteka.com/product/pivo-1/korona-ekstra_70835",
-    "title": "Корона Экстра",
-    "marketing_tags": [],
-    "brand": "Корона",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 149.0,
-      "original": 149.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/6d/ee/70835_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": "Освежающее, легко пьющееся пиво, которое производится в Мексике и традиционно употребляется охлажденным, в бутылке и с кусочком лайма."
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213882,
-    "RPC": "zedazeni",
-    "url": "https://alkoteka.com/product/pivo-1/zedazeni_85215",
-    "title": "Зедазени",
-    "marketing_tags": [],
-    "brand": "Зедазени",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 149.0,
-      "original": 149.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/49/e4/85215_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": ""
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213887,
-    "RPC": "ragnar-pilsner",
-    "url": "https://alkoteka.com/product/pivo-1/ragnar-pilsner_85219",
-    "title": "Рагнар Пилснер",
-    "marketing_tags": [],
-    "brand": "Рагнар Пилснер",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 149.0,
-      "original": 149.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/fe/70/85219_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": ""
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213892,
-    "RPC": "gesser",
-    "url": "https://alkoteka.com/product/pivo-1/gesser_59208",
-    "title": "Гессер",
-    "marketing_tags": [],
-    "brand": "Гессер",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 79.0,
-      "original": 79.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/32/5d/59208_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": ""
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213897,
-    "RPC": "shtefans-brau-khefevayzen",
-    "url": "https://alkoteka.com/product/pivo-1/shtefans-brau-khefevayzen_29296",
-    "title": "Штефанс Брау Хефевайзен",
-    "marketing_tags": [],
-    "brand": "Штефанс Брау",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 145.0,
-      "original": 145.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/8c/95/29296_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": "Несмотря на огромные объемы производства (завод ежегодно выпускает 1,8 миллионов гектолитров пенного напитка), пиво до сих пор варится в строгом соответствии с законом о чистоте пива 1516 года. Высокое качество напитка контролируется собственной исследовательской лабораторией. Пивоварня ежегодно получает сертификат International Food Standard (Международного стандарта качества и безопасности пищевой продукции). Пиво нефильтрованное, соломенного цвета, со свежим ароматом, наполненным тонкими нотками хмеля, цветов и цитрусов."
-    },
-    "variants": 1
-  },
-  {
-    "timestamp": 1772213902,
-    "RPC": "caringer-shvarc-bir",
-    "url": "https://alkoteka.com/product/pivo-1/caringer-shvarc-bir_29294",
-    "title": "Царингер Шварц Бир",
-    "marketing_tags": [],
-    "brand": "Царингер",
-    "section": [
-      "Slaboalkogolnye Napitki 2"
-    ],
-    "price_data": {
-      "current": 129.0,
-      "original": 129.0,
-      "sale_tag": ""
-    },
-    "stock": {
-      "in_stock": true,
-      "count": 0
-    },
-    "assets": {
-      "main_image": "https://web.alkoteka.com/storage/product/2a/b7/29294_image.png",
-      "set_images": [],
-      "view360": [],
-      "video": []
-    },
-    "metadata": {
-      "__description": "Пиво кофейного цвета, с темно-янтарными бликами, в аромате которого, присутствуют зерновые и медовые нюансы с ненавязчивыми кофейными нотами. Мягкий обволакивающий жжено-кофейный вкус, в котором угадываются ноты кофе с молоком, черного хлеба, а послевкусие насыщено пряными оттенками."
     },
     "variants": 1
   }

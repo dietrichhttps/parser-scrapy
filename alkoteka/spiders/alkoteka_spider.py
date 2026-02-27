@@ -4,7 +4,7 @@ import time
 import re
 import os
 from urllib.parse import urljoin
-from alkoteka.items import ProductItem
+from items import ProductItem
 
 
 class AlkotekaSpider(scrapy.Spider):

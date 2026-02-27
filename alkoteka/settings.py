@@ -7,10 +7,10 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "alkoteka"
+BOT_NAME = "parser"
 
-SPIDER_MODULES = ["alkoteka.spiders"]
-NEWSPIDER_MODULE = "alkoteka.spiders"
+SPIDER_MODULES = ["spiders"]
+NEWSPIDER_MODULE = "spiders"
 
 ADDONS = {}
 
@@ -46,13 +46,13 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 DOWNLOADER_MIDDLEWARES = {
-    "alkoteka.middlewares.PlaywrightMiddleware": 543,
-    "alkoteka.middlewares.ProxyMiddleware": 544,
+    "middlewares.PlaywrightMiddleware": 543,
+    "middlewares.ProxyMiddleware": 544,
 }
 
 # Configure item pipelines
 ITEM_PIPELINES = {
-    "alkoteka.pipelines.JsonWriterPipeline": 300,
+    "pipelines.JsonWriterPipeline": 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
